@@ -1,0 +1,23 @@
+@use "colors";
+@use "fonts";
+
+.api-card {
+  margin-bottom: 1rem;
+  background-color: colors.$primary;
+}
+
+.api-card__header {
+  width: 100%;
+  background-color: colors.$contrast;
+  color: colors.$primary;
+  padding: 0.25em 1rem;
+}
+
+.api-card__body {
+  padding: 0.5rem 1rem;
+}
+
+.api-card__link {
+  font-size: fonts.$text-size-s;
+  overflow-x: auto;
+}

@@ -5,5 +5,12 @@
     of API's.
   </p>
   <br />
-  <hg-button>Generate</hg-button>
+  <hg-button (click)="onGenerate()">Generate</hg-button>
+</hg-card>
+
+<hg-card *ngIf="hackathon">
+  <h2>Your Hackathon</h2>
+  <p>Connect the following API's:</p>
+
+  <hg-api-card *ngFor="let api of hackathon.apiCollection" [api]="api"></hg-api-card>
 </hg-card>

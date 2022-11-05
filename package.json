@@ -5,7 +5,6 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "test": "ng test",
     "lint": "ng lint",
     "lint:fix": "ng lint --fix",
     "lint-staged": "lint-staged",

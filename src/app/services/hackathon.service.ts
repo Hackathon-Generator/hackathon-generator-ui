@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { apiCollection } from '../data/api.collection';
+import { apiCollection } from '../data';
 import { ApiInterface, HackathonInterface } from '../interfaces';
 
 @Injectable({ providedIn: 'root' })

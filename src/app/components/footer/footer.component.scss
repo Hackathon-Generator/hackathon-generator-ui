@@ -1,0 +1,10 @@
+@use "colors";
+@use "fonts";
+
+.footer {
+  background-color: colors.$contrast;
+  color: colors.$primary;
+  text-align: center;
+  font-size: fonts.$text-size-s;
+  line-height: 1.8em;
+}

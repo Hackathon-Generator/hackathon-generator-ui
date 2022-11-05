@@ -1,7 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
+// SCSS Imports
+@use "styles/colors";
+@use "styles/fonts";
 
-$accent-color: #45CBB2;
+// Normalize.css
+@import "normalize.css";
+
+// Google Fonts
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+// Font Awesome Icons
+@import "@fortawesome/fontawesome-free/css/fontawesome.css";
+@import "@fortawesome/fontawesome-free/css/solid.css";
+
+// App Styles
+html {
+  height: 100%;
+}
 
 body {
-  background-color: $accent-color;
+  font-family: fonts.$text-font;
+  font-size: 1rem;
+  line-height: 1.7rem;
+  color: colors.$black;
+  height: 100%;
+  background-color: colors.$white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: fonts.$title-font;
 }

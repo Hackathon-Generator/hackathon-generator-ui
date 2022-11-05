@@ -1,0 +1,19 @@
+@use "colors";
+@use "fonts";
+
+.header {
+  background-color: colors.$primary;
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 2px solid colors.$contrast;
+}
+
+.header__icon {
+  display: inline-block;
+  font-size: 2rem;
+  background-color: colors.$contrast;
+  color: colors.$white;
+  padding: 0.2rem 0.8rem;
+  border-radius: 0.2rem;
+  margin-bottom: 0.5rem;
+}
